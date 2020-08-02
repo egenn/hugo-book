@@ -4,6 +4,10 @@ baseURL = '/'
 title = 'Hugo Book Too!'
 theme = 'hugo-booktoo'
 
+# Exclude R/blogodown files
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+> 
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
@@ -111,4 +115,3 @@ enableGitInfo = true
 
   MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
   MathJaxVersion = "2.7.5"
-  
