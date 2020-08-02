@@ -6,7 +6,6 @@ theme = 'hugo-booktoo'
 
 # Exclude R/blogodown files
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-> 
 
 # Book configuration
 disablePathToLower = true
