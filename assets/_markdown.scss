@@ -58,7 +58,7 @@
       text-decoration: underline;
     }
     &:visited {
-      color: $color-visited-link;
+      color: $link-visited-color;
     }
   }
 
@@ -75,7 +75,7 @@
 
   pre {
     padding: $padding-16;
-    background: $gray-100;
+    // background: $gray-100; //defined in _syntax.scss
     border-radius: $border-radius;
     overflow-x: auto;
 
@@ -115,7 +115,7 @@
     }
 
     tr:nth-child(2n) {
-      background: $gray-100;
+      background: $gray-100; //check: remove
     }
   }
 

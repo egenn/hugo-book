@@ -54,7 +54,7 @@
     }
 
     input[type="radio"]:checked + label {
-      border-bottom: $padding-1 solid $color-link;
+      border-bottom: $padding-1 solid $link-color;
     }
     input[type="radio"]:checked + label + .book-tabs-content {
       display: block;
@@ -80,10 +80,10 @@
   a.book-btn {
     display: inline-block;
     font-size: $font-size-14;
-    color: $color-link;
+    color: $link-color;
     line-height: $padding-16 * 2;
     padding: 0 $padding-16;
-    border: $padding-1 solid $color-link;
+    border: $padding-1 solid $link-color;
     border-radius: $border-radius;
     cursor: pointer;
 

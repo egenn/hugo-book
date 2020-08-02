@@ -31,7 +31,7 @@ h5 {
 
 a {
   text-decoration: none;
-  color: $color-link;
+  color: $link-color;
 }
 
 img {
@@ -57,7 +57,7 @@ aside nav ul {
   }
 
   a:hover {
-    opacity: 0.5;
+    color: $link-hover-color;
   }
 
   ul {
@@ -113,7 +113,7 @@ ul.pagination {
   }
 
   a.active {
-    color: $color-link;
+    color: $link-color;
   }
 
   a.collapsed {

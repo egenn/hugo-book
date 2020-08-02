@@ -24,8 +24,11 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$color-link: #05b !default;
-$color-visited-link: #8440f1 !default;
+$color-link: #0290EE; //remove
+$link-color: #0290EE;
+$color-visited-link: #0290EE; //remove
+$link-visited-color: #0290EE;
+$link-hover-color: #FE8A4F;
 
 $body-background: white !default;
 $body-font-color: $black !default;
