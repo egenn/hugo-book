@@ -55,7 +55,8 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $link-hover-color;
+      font-weight: bold;
     }
     &:visited {
       color: $link-visited-color;
