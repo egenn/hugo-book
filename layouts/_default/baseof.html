@@ -40,7 +40,7 @@
     {{ end }}
   </main>
 
-  // highlight.js
+  <!-- highlight.js -->
   {{ if and (not .Params.disable_highlight) (in (string .Content) "</pre>") }}
   {{ $highVer := .Site.Params.highlightjsVersion }}
   {{ $highCDN := (.Site.Params.highlightjsCDN | default "//cdnjs.cloudflare.com/ajax/libs") }}
