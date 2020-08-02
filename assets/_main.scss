@@ -98,11 +98,12 @@ ul.pagination {
 .book-menu {
   flex: 0 0 $menu-width;
   font-size: $font-size-14;
+  background: $menu-bg;
 
   nav {
     width: $menu-width;
     padding: $padding-16;
-    background: $body-background;
+    // background: $body-background;
 
     @include fixed;
   }

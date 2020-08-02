@@ -24,12 +24,14 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
+// Links
 $color-link: #0290EE; //remove
 $link-color: #0290EE;
 $color-visited-link: #0290EE; //remove
 $link-visited-color: #0290EE;
 $link-hover-color: #FE8A4F;
 
+// Body
 $body-background: white !default;
 $body-font-color: $black !default;
 $body-font-weight: normal !default;
@@ -38,7 +40,10 @@ $body-min-width: 20rem !default;
 $container-max-width: 80rem !default;
 
 $header-height: 3.5rem !default;
+
+// Menu
 $menu-width: 16rem !default;
+$menu-bg: #b5b5b5;
 $toc-width: 16rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
